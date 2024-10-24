@@ -14,6 +14,7 @@ all the Markdown elements.
   s.license               = {:type => "MIT", :file => "LICENSE"}
   s.author                = {"Ivan Bruel" => "ivan.bruel@gmail.com"}
   s.source                = {:git => "https://github.com/bmoliveira/MarkdownKit.git", :tag => s.version.to_s}
+  s.platform              = :ios, '9.0'
   s.social_media_url      = "https://twitter.com/ivanbruel"
 
   s.source_files          = "MarkdownKit/Sources/Common/**/*"
