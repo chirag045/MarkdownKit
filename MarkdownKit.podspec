@@ -8,13 +8,14 @@ It supports many of the standard Markdown elements through the use of Regular
 Expressions. It also allows customization of font and color attributes for
 all the Markdown elements.
                       DESC
-  s.swift_version         = '5'
+  s.swift_version = '5.0'
   s.homepage              = "https://github.com/bmoliveira/MarkdownKit"
   s.screenshots           = "https://raw.githubusercontent.com/bmoliveira/MarkdownKit/master/Resources/MarkdownKitExample.png"
   s.license               = {:type => "MIT", :file => "LICENSE"}
   s.author                = {"Ivan Bruel" => "ivan.bruel@gmail.com"}
   s.source                = {:git => "https://github.com/bmoliveira/MarkdownKit.git", :tag => s.version.to_s}
   s.platform              = :ios, '9.0'
+  s.ios.deployment_target = '9.0'
   s.social_media_url      = "https://twitter.com/ivanbruel"
 
   s.source_files          = "MarkdownKit/Sources/Common/**/*"
